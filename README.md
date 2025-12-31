@@ -21,5 +21,5 @@ Das Skript erzeugt reproduzierbare Grafiken für Reports, die direkt in Präsent
 1. Repository klonen:
 
 ```bash
-git clone https://github.com/DEINNAME/data_analysis_project.git
+git clone https://github.com/shadarino/data_analysis_project.git
 cd data_analysis_project
