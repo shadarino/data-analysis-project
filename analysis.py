@@ -7,7 +7,7 @@ import os
 data_file = "data/messdaten.csv"
 df = pd.read_csv(data_file)
 
-# --- 2. Grundlegende Statistik ---
+# --- 2. Statistik ---
 mean_temp = df['temperature_C'].mean()
 std_temp = df['temperature_C'].std()
 print(f"Mittelwert der Temperatur: {mean_temp:.2f} °C")
@@ -29,7 +29,7 @@ plt.savefig(plot_file)
 plt.show()
 print(f"Plot gespeichert: {plot_file}")
 
-# --- 4. Optionale Erweiterung: Histogramm ---
+# --- 4. Histogramm ---
 plt.figure(figsize=(6,4))
 plt.hist(df['temperature_C'], bins=10, color='skyblue', edgecolor='black')
 plt.title("Histogramm der Temperatur")
